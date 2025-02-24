@@ -22,7 +22,8 @@
 
 .main-container{
     max-width: 900px;
-    margin: auto;
+    /* margin: auto; */
+    margin: -50px auto;
 
 }
 
@@ -46,7 +47,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
     gap: 15px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .main .card{
@@ -82,7 +83,7 @@
     bottom: 0;
     width: 100%;
     max-width: 900px;
-    padding: 0px 20px;
+    padding: 10px 20px;
     margin: auto;
 }
 
